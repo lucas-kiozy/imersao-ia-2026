@@ -8,7 +8,8 @@ Cole o comando abaixo e aperte Enter
 
 ```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser```
 
-Baixe e instale o nvm-setup.exe encontrado em https://github.com/coreybutler/nvm-windows/releases
+Baixe e instale o nvm-setup.exe encontrado em [aqui](https://github.com/coreybutler/nvm-windows/releases)
+
 Rode
 
 ```nvm install latest```
