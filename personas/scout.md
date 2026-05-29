@@ -31,8 +31,9 @@ Envelope de resposta conforme `skills/job-search.md`
 **Fluxo de Execução** (implementado pela skill):
 1. Ler `data/user-profile.md` para obter área, localização, nível e habilidades.
 2. Executar `firecrawl search` conforme a skill.
-3. Para cada resultado (máx 15) executar `firecrawl scrape`.
-4. Extrair requisitos, comparar habilidades, filtrar por nível.
+3. NÃO procurar no site *bebee.com*, dar prioridade as plataformas listadas em **PAPEL**.
+4. Para cada resultado (máx 15) executar `firecrawl scrape`.
+5. Extrair requisitos, comparar habilidades, filtrar por nível.
 5. Montar o **Envelope de Resposta** (ver `skills/job-search.md`).
 6. Salvar o envelope completo em `data/job-search-results.md`.
 

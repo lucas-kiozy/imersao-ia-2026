@@ -2,19 +2,19 @@
 
 ## Propósito
 
-Esta skill fornece capacidades de busca e raspagem web para o sistema Recoloca IA. Ela usa o CLI do Firecrawl para descobrir empregos dos principais portais de emprego e encontrar cursos na Alura.
+Esta skill fornece capacidades de busca e raspagem web para o sistema Recoloca IA. Ela usa o CLI do Firecrawl para descobrir empregos dos principais portais de emprego e encontrar cursos para aperfeiçoamento.
 
 ## Fontes Agregadas
 
 O Firecrawl agrega conteúdo destas plataformas:
 - Indeed
 - Catho
-- LinkedIn
-- Glassdoor
 - Infojobs
 - Remoteok
 - Remotar
 - Weworkremotely
+- LinkedIn
+- Glassdoor
 
 ## Ferramentas
 
@@ -25,7 +25,7 @@ O Firecrawl agrega conteúdo destas plataformas:
 
 ### Busca Web
 
-Busque conteúdo nas fontes agregadas:
+Busque conteúdo NAS FONTES AGREGADAS:
 
 ```
 firecrawl search "[consulta]" --json
